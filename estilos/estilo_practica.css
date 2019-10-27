@@ -1,0 +1,105 @@
+h1, h2, h3, h4, h5, h6 {
+    font-style: italic
+}
+
+h1{
+    font-size: 4em;
+}
+
+h2{
+    font-size: 3em;
+}
+
+h3{
+    font-size: 2em;
+}
+
+h4{
+    font-size: 1em;
+}
+
+h5{
+    font-size: 0.5em;
+}
+
+h6{
+    font-size: 0.25em;
+}
+
+div{
+    border: 1px;
+    border-style: dashed;
+    border-color:white;
+}
+
+p,dl,ol,ul,td{
+    font-family: "Times New Roman", Times, serif;
+    font-size: 30px;
+}
+
+p::first-letter {
+    font-size: 120%;
+}
+
+figure{
+    width: 30%;
+    text-align: center;
+    font-style: italic;
+    font-size: smaller;
+    text-indent: 0;
+    border: thin silver solid;
+    margin: 0.5em;
+    padding: 0.5em;
+}
+
+figcaption{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6{
+    padding: 35px 20px 35px 20px;
+    margin: 10px 50px 10px 50px;
+    text-transform: uppercase;
+}
+
+
+
+table {
+    border-collapse: collapse;
+  }
+
+table, th, td {
+    background-color: darkgray;
+    border: 1px solid black;
+    text-align: center;
+    padding: 5px;
+  }
+
+th{
+    background-color: lightgreen;
+}
+
+ul{
+    margin-top: 1.5em;
+}
+
+.listatemp tr:hover td{
+    background-color: darkgray;
+}
+
+.listatemp td {
+    background-color: lightgray;
+}
+
+a:link, a:visited{
+    color: magenta;
+    text-decoration: underline wavy;
+    cursor: pointer;
+}
+
+.center{
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block
+}
